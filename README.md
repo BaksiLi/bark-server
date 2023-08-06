@@ -38,7 +38,7 @@ If you use the docker-compose tool, you can copy docker-copose.yaml under this p
 
 ``` sh
 mkdir bark-server && cd bark-server
-curl -sL https://git.io/JvSRl > docker-compose.yaml
+curl -sL https://raw.githubusercontent.com/Finb/bark-server/master/deploy/docker-compose.yaml > docker-compose.yaml
 docker-compose up -d
 ```
 
